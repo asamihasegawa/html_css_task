@@ -10,8 +10,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: #e0ffff
-
+  background-color: #e0ffff;
 }
 /*----------header--------*/
 .header {
@@ -20,28 +19,16 @@
   padding: 20px;
 }
 
+/*-----main-----*/
+.main1 table {
+  padding: 20px;
+  margin: 100px auto 0 auto;
+}
+
 .main1 table td {
   padding: 10px 20px;
-  text-align: center;
   margin: 10px;
-  border: solid black 1px;
-}
-
-.main4 table td {
   text-align: center;
-  margin: 10px;
-  padding: 5px 10px;
-  border: solid black 1px;
-}
-
-/*-----main-----*/
-.main1 {
-  box-sizing: border-box;
-  width: 35%;
-  padding: 20px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   border: solid black 1px;
 }
 
@@ -50,14 +37,16 @@
   text-align: center;
 }
 
-.main4 {
-  width: 675px;
-  height: 187px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  border: solid 1px black;
+.main4 table {
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.main4 table td {
+  text-align: center;
+  margin: 10px;
+  padding: 5px 10px;
+  border: solid black 1px;
 }
 
 /*-----btn-----*/
